@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imgProfile{
+    background-color: hsl(0, 0%, 12%);
+    display: grid;
+    justify-items: center;
+    height: 67vh;
+    width: 40vh;
+    border-radius: 10px;
+}
+
+.imgProfile img{
+    display: grid;
+    justify-content: center;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2rem 0 0 0;
+    height: 13vh;
+}
+
+.nameLocation{
+    display: grid;
+    justify-items: center;
+    color: white;
+    font-family: Inter;
+    height: 400px;
+    margin: 0 0 80px 0;
+}
+
+.name{
+    height: 40px;
+}
+
+.location{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    height: 50px;
+}
+
+.role{
+    font-size: 14px;
+    height: 45px;
+}
+
+.buttons{
+    display: grid;
+    justify-items: center;
+    font-size: 14px;
+    height: 320px;
+}
+
+.buttons h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+    height: 50px;
+    width: 320px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 375px) {
+    .imgProfile{
+        height: 70vh;
+        width: 37vh;
+    }
+
+    .imgProfile img{
+        height: 5rem;
+        margin: 25px 0 0 0;
+    }
+
+    .nameLocation{
+        margin: 0 0 68px 0;
+    }
+
+    .name{
+        margin: 20px 0 0 0;
+        font-size: 18px;
+    }
+
+    .location{
+        font-size: 14px;
+    }
+
+    .role{
+        font-size: 13px;
+    }
+
+    .buttons h2{
+        font-size: 14px;
+        height: 55px;
+        width: 32.5vh;
+    }
+
+}
